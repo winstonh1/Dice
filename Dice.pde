@@ -55,7 +55,7 @@ class Dice
     
     fill(255);
     strokeWeight(1);
-    square(myX,myY,100);
+    rect(myX,myY,100,100);
     fill(0);
     roll = (int)(Math.random()*6)+1;
 
